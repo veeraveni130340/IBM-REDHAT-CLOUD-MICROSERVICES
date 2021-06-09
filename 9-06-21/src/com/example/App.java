@@ -8,8 +8,20 @@ public class App {
 		account.createAccount("acc-1", 200.0, "John", AccountType.SAVINGS);
 		if(account.getAccountType()==AccountType.SAVINGS)
 		{
+			if(account.getAccountType()==AccountType.CURRENT)
+			{
+				CurrentAccount cur=new CurrentAccount();
+				cur.createCurrentAccount();
+				
+			}
+			else if(account.getAccountType()==AccountType.SAVINGS)
+			{
+				SavingsAccount sav=new SavingsAccount();
+				sav.createSavingsAccount();
+				
+			}
 			
-		}
 	}
 
+	}
 }

@@ -32,6 +32,15 @@ public class Product {
 				+ "]";
 	}
 	
+	public double getDiscount()
+	{
+		return this.productPrice-((this.productPrice*2)/100);
+		
+	}
+	public Double getPrice() {
+		return this.productPrice;
+		
+	}
 	
 	
 }
