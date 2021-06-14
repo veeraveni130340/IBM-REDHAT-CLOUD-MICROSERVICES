@@ -13,7 +13,7 @@ public class Tester {
 		System.out.println(myVehicle.calcFuelEfficiency(1000));
 		System.out.println(myVehicle.getDetails());
 		myVehicle.setMessage("I Am On Riverbarge");
-		System.out.println(myVehicle.getMessage());
+		System.out.println(myVehicle.getMessage()); 
 
 	}
 
